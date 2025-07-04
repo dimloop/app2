@@ -30,7 +30,7 @@ with st.sidebar:
     bold = bold_words.startswith("Ναι")
 
 
-    model = st.radio("Επιλογή μεθοδολογίας:", ["Μονοκομβικό μοντέλο","Μοντέλο 7 κόμβων", "Μοντέλο 8 κόμβων"])
+    model = st.radio("Επιλογή μεθοδολογίας:", ["Μοντέλο 7 κόμβων", "Μοντέλο 8 κόμβων"])
     #single = single_model.startswith("One")
 
     provider = st.radio("Επιλογή μοντέλου:",
