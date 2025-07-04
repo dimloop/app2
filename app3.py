@@ -8,7 +8,7 @@ from article_extract import extract_article_as_json
 import global_var
 
 
-st.set_page_config(page_title="Εξαγωγέας Κα", page_icon="🧠")
+st.set_page_config(page_title="Εξαγωγέας Κύριων Σημείων από Άρθρα", page_icon="🧠")
 st.title("📰 Εξαγωγέας Κύριων Σημείων απο Αρθρα")
 
 
