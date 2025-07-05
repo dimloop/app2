@@ -8,6 +8,12 @@ from article_extract import extract_article_as_json
 import global_var
 
 
+# Set environment variables using Streamlit secrets
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+
+
 st.set_page_config(page_title="Εξαγωγέας Κύριων Σημείων από Άρθρα", page_icon="🧠")
 st.title("📰 Εξαγωγέας Κύριων Σημείων από Άρθρα")
 
